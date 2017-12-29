@@ -1,0 +1,253 @@
+/************* 
+FONT 
+**************/
+* {
+  font-family: 'PT Sans', sans-serif; }
+
+.sprite {
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat; }
+
+/*******************
+TOOLS SCSS
+********************/
+/*******************
+FIM TOOLS SCSS
+********************/
+/****************
+TOPO
+*****************/
+header {
+  padding: 20px 0; }
+  header nav ul {
+    display: inline-block;
+    padding: 0 !important;
+    float: none;
+    list-style: none;
+    float: right; }
+    header nav ul li {
+      display: inline-block;
+      margin: auto; }
+      header nav ul li a {
+        display: block;
+        text-decoration: none;
+        float: none;
+        color: #868686;
+        padding: 13px 25px;
+        border-radius: 3px; }
+      header nav ul li :hover {
+        transition: 0.7s;
+        background: #fc7746;
+        color: #FFF;
+        text-decoration: none; }
+
+/****************
+SLIDER
+*****************/
+#slider .carousel-inner {
+  position: relative; }
+#slider .box-text-slide {
+  position: absolute;
+  top: 29%;
+  left: 18%;
+  z-index: 19; }
+  #slider .box-text-slide .box-text {
+    width: 40%;
+    position: relative;
+    padding: 30px;
+    color: #FFF;
+    background: #fc7746;
+    z-index: 20; }
+
+/****************
+SOBRE
+*****************/
+#sobre {
+  background: #fc7746;
+  padding: 90px 45px; }
+  #sobre .img-sobre {
+    background: url(../img/sobre.png) no-repeat center center; }
+  #sobre h2, #sobre p {
+    color: #FFF; }
+
+/****************
+COMO FUNCIONA
+*****************/
+#como-funciona {
+  padding-top: 85px; }
+  #como-funciona h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4a797b;
+    padding-bottom: 60px; }
+  #como-funciona ul {
+    display: inline-block;
+    padding: 0 !important;
+    float: none;
+    list-style: none; }
+    #como-funciona ul li {
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      position: relative; }
+      #como-funciona ul li h3 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #4a797b;
+        padding-top: 25px; }
+      #como-funciona ul li p {
+        font-size: 13px;
+        color: #7b7b7b; }
+      #como-funciona ul li span {
+        display: block;
+        position: absolute;
+        z-index: 10;
+        width: 170px;
+        height: 50px;
+        top: -50px;
+        right: -70px; }
+      #como-funciona ul li span.seta1 {
+        background-position: -266px -0px; }
+      #como-funciona ul li span.seta2 {
+        background-position: -424px -4px;
+        top: 55px;
+        right: -70px; }
+    #como-funciona ul .icon {
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      position: relative; }
+    #como-funciona ul .icon.mundo {
+      background-position: -8px -70px; }
+    #como-funciona ul .icon.carrinho {
+      background-position: -146px -70px; }
+    #como-funciona ul .icon.like {
+      background-position: -294px -70px; }
+    #como-funciona ul .icon.caminhao {
+      background-position: -434px -70px; }
+  #como-funciona a {
+    display: block;
+    text-decoration: none;
+    float: none;
+    border: 2px solid #fc7746;
+    border-radius: 3px;
+    background: transparent;
+    color: #fc7746;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px; }
+
+/*************
+CADASTRE-SE 
+***************/
+#cadastrar {
+  width: 100%;
+  display: block;
+  background: #065155;
+  padding: 50px 0;
+  height: 250px;
+  margin-top: 125px;
+  position: relative;
+  z-index: 1; }
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* General styles and layout */
+.container {
+  overflow: hidden;
+  /* we don't want the pseudo-elements sticking out */ }
+
+section.diagonal {
+  position: relative;
+  padding: 10em 10%;
+  background: #065155;
+  color: #fff;
+  text-align: center; }
+
+.col-2 .column {
+  width: 49%; }
+
+.col-3 .column {
+  padding: 0 1%;
+  width: 33%;
+  text-align: center; }
+
+.col-3 .column p {
+  padding: 1.4em; }
+
+.column {
+  display: inline-block;
+  vertical-align: top; }
+
+/*** Individual section styles and separators ***/
+/* Common style for pseudo-elements */
+section.diagonal::before,
+section.diagonal::after {
+  position: absolute;
+  content: '';
+  pointer-events: none; }
+
+/* Double Diagonal line */
+.ss-style-doublediagonal {
+  z-index: 1;
+  padding-top: 6em;
+  background: #2072a7; }
+
+.ss-style-doublediagonal::before,
+.ss-style-doublediagonal::after {
+  top: 0;
+  left: -25%;
+  z-index: -1;
+  width: 150%;
+  height: 75%;
+  background: inherit;
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0; }
+
+.ss-style-doublediagonal::before {
+  height: 40%;
+  background: #065155;
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-transform-origin: 3% 0;
+  transform-origin: 3% 0; }
+
+.ss-style-doublediagonal::after {
+  top: 50%; }
+
+/* Media Queries for the layout */
+@media screen and (max-width: 68em) {
+  section {
+    font-size: 80%; } }
+@media screen and (max-width: 54em) {
+  .column {
+    display: block;
+    width: 100% !important; }
+
+  .text:first-child,
+  .text:nth-child(2) {
+    text-align: center; }
+
+  .icon {
+    margin: 0 auto; }
+
+  .col-2 .column:first-child .icon {
+    margin: 0 auto 50px; }
+
+  .col-2 .column:nth-child(2) .icon {
+    margin: 50px auto 0; } }
+
+/*# sourceMappingURL=style.css.map */
