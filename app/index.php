@@ -1,157 +1,117 @@
 <?php include 'includes/head.php'; ?>
 <section id="slider">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	  <ol class="carousel-indicators">
-	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	  </ol>
 	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="img/slide1.png" alt="First slide">
-
-	      	<div class="box-text-slide">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="box-text">
-								<h2>LOREM IPSUM DOLOR</h2>
-								<p>Aenean ultrices ultricies vulputate. Donec ut pulvinar ipsum. Maecenas tincidunt lorem at enim pharetra 
-									hendrerit vivamus in eleme. 
-								</p>
-								
-							</div>			
-						</div>
-					</div>
-				</div>
-			</div>
-	    </div>
-<!--
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="img/slide2.png" alt="Second slide">
-
-  	      	<div class="box-text-slide">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="box-text">
-								<h2>LOREM IPSUM DOLOR</h2>
-								<p>Aenean ultrices ultricies vulputate. Donec ut pulvinar ipsum. Maecenas tincidunt lorem at enim pharetra 
-									hendrerit vivamus in eleme. 
-								</p>
-								
-							</div>			
-						</div>
-					</div>
-				</div>
-			</div>
-	    </div>
-
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="img/slide2.png" alt="Third slide">
-
-
-  	      	<div class="box-text-slide">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="box-text">
-								<h2>LOREM IPSUM DOLOR</h2>
-								<p>Aenean ultrices ultricies vulputate. Donec ut pulvinar ipsum. Maecenas tincidunt lorem at enim pharetra 
-									hendrerit vivamus in eleme. 
-								</p>
-								
-							</div>			
-						</div>
-					</div>
-				</div>
-			</div>
-	    </div>
-	-->
-	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/banner.png" alt="First slide">
+		    </div>
+		</div>
 	</div>
 </section>
 
+<section id="cardapio">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="titulos"><span></span>Cardápio<span></span></h2>
+			</div>
+			<div class="box-cardapio">
+				<div class="col-xs-12 col-md-4">
+					<div class="item">
+						<img src="img/img1.jpg" alt="">
 
+						<h3>Lanches</h3>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="item">
+						<img src="img/img1.jpg" alt="">
+
+						<h3>Bebidas</h3>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="item">
+						<img src="img/img1.jpg" alt="">
+
+						<h3>Pizzas</h3>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="item">
+						<img src="img/img1.jpg" alt="">
+
+						<h3>Porções</h3>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="item">
+						<img src="img/img1.jpg" alt="">
+
+						<h3>Sobremesas</h3>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="item">
+						<img src="img/img1.jpg" alt="">
+
+						<h3>Pratos</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <section id="sobre">
-
+	<div class="box-titulo">
+		<h2 class="titulos"><span></span> Sobre <span></span></h2>
+	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-6">
-				
-			</div>
-			<div class="col-xs-12 col-sm-6">
-				<h2>SOBRE NÓS</h2>
-				<p>In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. Proin nec tempor ipsum. Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. 
-				</p>
+			<div class="col-xs-12 box-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+					ut aliquip ex ea commodo consequat.</p>
 			</div>
 		</div>
 	</div>
 </section>
-
-<section id="como-funciona" class="clearfix">
-	<div class="container">
-		<div class="row">
-			
-				<h2>COMO FUNCIONA?</h2>
-				<ul>
-					<li class="col-xs-12 col-sm-3">
-						<span class="sprite seta1"></span>
-						<div class="icon sprite mundo">
-							
-						</div>
-						<h3>PASSO 1</h3>
-						<p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, 
-						ut dignissim ligula est at erat.</p>
-					</li>
-					<li class="col-xs-12 col-sm-3">
-						<span class="sprite seta2"></span>
-						<div class="icon sprite carrinho">
-							
-						</div>
-						<h3>PASSO 2</h3>
-						<p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, 
-						ut dignissim ligula est at erat.</p>
-					</li>
-					<li class="col-xs-12 col-sm-3">
-						<span class="sprite seta1"></span>
-						<div class="icon sprite like">
-							
-						</div>
-						<h3>PASSO 3</h3>
-						<p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, 
-						ut dignissim ligula est at erat.</p>
-					</li>
-					<li class="col-xs-12 col-sm-3">
-						<div class="icon sprite caminhao"></div>
-						<h3>PASSO 4</h3>
-						<p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, 
-						ut dignissim ligula est at erat.</p>
-					</li>
-				</ul>
-				
+<section class="clearfix img-divisao">
 	
+</section>
+
+<section id="contato">
+	<div class="container">
+		<div class="row">
 			<div class="col-xs-12">
-				<a href="">LEIA MAIS</a>
+				<h2 class="titulos"><span></span> Contato <span></span></h2>
+			</div>
+
+			<div class="box-contato">
+				<div class="col-xs-12 col-md-6">
+					<h2>Entre em contato conosco</h2>
+
+					<form action="">
+						<input type="text" placeholder="Nome">
+						<input type="text" placeholder="E-mail">
+						<input type="text" placeholder="Telefone">
+
+						<textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+
+						<button value="ENVIAR"></button>
+					</form>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<h2>Venha nos conhecer!</h2>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<div class="clearfix"></div>
-<section id="cadastrar"  class="diagonal ss-style-doublediagonal">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12"></div>
-		</div>
-	</div>
-</section>
+
+<footer>
+	
+</footer>
 <?php include 'includes/footer.php'; ?>
