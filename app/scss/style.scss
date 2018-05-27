@@ -1,0 +1,25 @@
+body{
+	font-family: 'tahuregular';
+}
+.head{
+	width: 100%;
+	position: absolute;
+	z-index: 20;
+	.container{
+		margin: auto;
+	}
+	nav{
+		ul{
+		    display: inline-block;
+	    	list-style: none;
+	    	li{
+	    		display: inline-block;
+	    		a{
+	    			color: #FFF;
+	    			font-size: 40px;
+	    			text-decoration: none;
+	    		}
+	    	}
+		}
+	}
+}
